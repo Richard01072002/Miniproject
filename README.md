@@ -1,58 +1,70 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## AI-Enabled Self-Balancing Robot for Interactive Experiences
+Small description 
+The development of an AI-driven self-balancing robot designed to autonomously maintain stability and navigate diverse environments, enhancing automation capabilities in personal and industrial applications.
+
+
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The AI-Enabled Self-Balancing Robot is a cutting-edge project aimed at creating a robot that combines advanced control algorithms, real-time processing, and sensor integration to maintain balance and adapt to dynamic surroundings. Unlike traditional robots, this system eliminates the need for external support, offering significant advancements in autonomous stability and mobility.
+
+Leveraging technologies such as Proportional-Integral-Derivative (PID) control and reinforcement learning (RL), the robot can operate independently across various terrains, making it suitable for tasks ranging from healthcare to logistics. The robot's adaptability is further enhanced through simulations and real-world testing, ensuring robustness and reliability.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Combines PID control and advanced reinforcement learning algorithms.
+- High adaptability to dynamic environments and terrains.
+- Real-time data processing with integrated sensors like MPU6050.
+- Utilizes stepper motors (e.g., NEMA 17) for precise movements.
+- Scalable design with modular architecture for future enhancements.
+- Multimodal integration of data inputs for better environmental awareness.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Operating System: Requires a 64-bit OS (Windows 10, Ubuntu 20.04) for compatibility with simulation and real-time processing frameworks.
+* Development Environment: Python 3.8 or later, suitable for reinforcement learning and PID integration.
+* Deep Learning Frameworks: TensorFlow for policy optimization and OpenAI Gym for simulation.
+* Simulation Tools: PyBullet, Gazebo, and MATLAB Simulink for real-world modeling.
+* Microcontroller: Arduino Nano for controlling sensors and actuators.
+* Hardware Components:
+  * Sensors: MPU6050 for motion tracking.
+  * Motors: NEMA 17 stepper motors for precise movement.
+  * Motor Drivers: A4988 stepper drivers for current and motion control.
+  * Frame: Lightweight acrylic with threaded rods for support.
+* IDE: Arduino IDE and Visual Studio Code for debugging and deployment.
+* Version Control: Git for collaborative development.
+* Additional Dependencies: Includes libraries such as scikit-learn, OpenCV, and stable-baselines3 for reinforcement learning.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+![image](https://github.com/user-attachments/assets/c285d16d-c74d-4540-a3aa-e9f12931922e)
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - 3D Model 
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/bf74f54e-7a41-41a9-96a1-6f7bcbfd435c)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Balance Accuracy: 97.2%
+
+Response Time to Disturbances: <100ms
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The AI-Enabled Self-Balancing Robot sets a benchmark for autonomous robotics, demonstrating its ability to maintain stability, adapt to environmental challenges, and operate efficiently in real-world scenarios.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+By integrating reinforcement learning and PID control, this robot achieves unparalleled precision and adaptability, contributing to the advancement of autonomous systems. The project lays the foundation for innovative solutions in robotics, paving the way for more efficient and accessible technology.
+
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Anderson, DP, 2007, nBot Balancing Robot, viewed 20th March 2008, 	                              http://www.geology.smu.edu/~dpa-www/robo/nbot/ 
+2. Angeles, J 2007, Fundamentals of Robotic Mechanical Systems, Springer, New York.
+3. 14.Larson, T, 2008, Balancing Robot Project - Bender, viewed 20th March 2008, 
+http://www.tedlarson.com/robots/balancingbot.htm
 
 
 
